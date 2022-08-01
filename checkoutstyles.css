@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+.checkout{
+    height: 100vh;
+    width: 100%;
+    background: url('images/checkout-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.checkout-inner{
+    position: absolute;
+    top: 100px;
+    left: 550px;
+    background-color: #ECC2B1;
+    width: 420px;
+    height: 650px;
+    border-radius: 10px;
+    
+}
+.checkout-inner img{
+    width: 50px;
+    margin-left: 42%;
+    padding-top: 30px;
+}
+.checkout-inner h1{
+    color: #FF5C1B;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 100px;
+    font-size: 35px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.checkout-forms{
+    background: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.checkout-forms h3{
+    padding-top: 30px;
+}
+.label{
+    color: #FF5C1B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+.last-input{
+    border: 1px solid #D37C59;
+    height: 45px;
+    width: 325px;
+    margin-top: 10px;
+}
+.name, .phone-number{
+    height: 35px;
+    width: 215px;
+    border: 1px solid #D37C59;
+}
+.name{
+    margin-bottom: 10px;
+}
+.button{
+    margin-top: 20px;
+    margin-left: 270px;
+    padding: 12px;
+    width: 110px;
+    border:  none;
+    border-radius: 25px;
+    color: white;
+    background:#F65E26;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.phone-number{
+    margin-left: 13px;
+}
+
+/*.......Iterate the below counter Using Javascript.......*/
+
+.counter{
+    width: 50px;
+    height: 50px;
+    background: #ECC2B1;
+    position: absolute;
+    top: 270px;
+    left: 190px;
+    border-radius: 10px;
+  
+}
+.counter{
+    transform: rotate(-50deg);
+}
+.counter p{
+    margin-left: 10px;
+    transform: rotate(50deg);
+    padding-left: 10px;
+    font-weight: bold;
+
+}
+/*.......Iterate the above counter Using Javascript.......*/

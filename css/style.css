@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url(/images/pexels-lood-goosen-1235706.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'poppins', sans-serif;
+}
+
+h1{
+    text-align:center;
+    margin-bottom: 30px;
+    color: #EEEEEE;
+    font-size: 35px;
+    cursor: pointer;
+}
+input{
+    display: block;
+}
+input[type='password']{
+    margin-top: 15px;
+}
+input[type='submit']{
+    width: 50%;
+    margin: 40px auto;
+    padding: 6px 0;
+    border: none;
+    border-radius: 6px;
+    background: #B20600;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+input[type='submit']:hover{
+    background:#990000;
+    transition: 0.6s;
+}
+input[type='email'], input[type='password']{
+    height: 30px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid grey;
+    width: 200px;
+}
+label{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+.center{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background: rgba(0,0,0,1), rgb(128,128,128);
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: block;
+}
+.reveal{
+    display: block;
+}
+
+.center a, .create-account a{
+    display: block;
+    font-size: 15px;
+    color: whitesmoke;
+}
+.center .initial{
+    margin-bottom: 3px;
+}
+ span{
+    color:#990000;
+}
+.create-account{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background: rgba(0,0,0,1), rgb(128,128,128);
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display:none;
+}
+.reveal-ii{
+    display:block;
+}
+

@@ -1,0 +1,594 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family:'Poppins';
+
+}
+
+/*................header styles.............*/
+.hero{
+    background: url('images/hero.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-content{
+    position: absolute;
+    top: 22%;
+    left: 10%;
+}
+.text-content h1{
+    color: #FFA77B;
+    font-weight: bold;
+    font-size: 45px;
+}
+.text-content p{
+    color: #D4E2F8;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.text-content button{
+    width: 135px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 600;
+    background: linear-gradient(to right, #CC0E15, #FF702A );
+    color: white;
+    font-weight: 200;
+    font-size: 13px;
+    border: none;
+}
+.right{
+    margin-left: 15px;
+}
+.medium-circle{
+    width: 60px;
+    position: absolute;
+    top: 54%;
+    left: 4%;
+}
+.large-circle{
+    width: 85px;
+    position: absolute;
+    top: 67%;
+    left: 1%;
+}
+.small-circle{
+    width: 40px;
+    position: absolute;
+    top: 66%;
+    left: 10%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header button{
+    margin: 30px 40px 0 0;
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 600;
+    background: #F65E26;
+    color: white;
+    border: none;
+}
+nav li{
+    display: inline-block;
+    padding: 40px 30px;
+    font-size: 17px;
+    font-weight: 500;
+}nav li a{
+    text-decoration: none;
+    color: #D4E2F8;
+}
+.logo{
+    width: 100px;
+    height: 60px;
+    margin: 20px 0 0 100px;
+}
+/*......header section ends.......*/
+
+/*.....Today's special section.......*/
+
+.today-special{
+    margin-top: 50px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.today-box{
+    width: 245px;
+    height: 264px;
+    background-color: #ECC2B1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.today-box img{
+    width: 160px;
+    height: 210px;
+    margin-top: 30px;
+    margin-left: 17px;
+}
+.take-out-triangle{
+    position: absolute;
+    width: 76px;
+    height: 73px;
+    border: 2px solid #81BE00;
+    border-radius: 15px;
+    top: 290px;
+    left: 530px;
+    transform: rotate(50deg);
+}
+.take-out-box img{
+    width: 76px;
+    height: 73px;
+    position: absolute;
+    top: 290px;
+    left: 530px;
+}
+.take-out-box p{
+    position: absolute;
+    top: 320px;
+    left: 518px;
+    transform: rotate(-90deg);
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+.take-out-box .coffee-cup{
+    width: 42px;
+    height: 45px;
+    position: absolute;
+    left: 555px;
+    top: 303px;
+}
+
+.special-one h2{
+    color: #BD8C78;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 272px;
+    left: 290px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.special-one{
+    margin-top: 65px;
+}
+.special-two{
+    margin-left: 200px;
+    background: #ECC2B1;
+    border-radius: 10px;
+    padding-bottom: 25px;
+}
+.special-two img{
+    width: 43px;
+    height: 43px;
+    margin-top: 30px;
+    margin-left: 45%;
+}
+
+.special-text-content{
+    width: 400px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.special-two>h1{
+    text-align: center;
+    color: #0A0626;
+    font-weight: bolder;
+    font-size: 30px;
+    
+}
+.special-text-content p{
+    text-align: center;
+    font-size: 13px;
+    color: #494442;
+    width: 350px;
+    margin: 0 auto 40px auto;
+}
+.special-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 25px;
+    background: white;
+    border-radius: 10px;
+    width: 350px;
+}
+
+
+.price-box h1{
+    font-size: 22px;
+    color: #FF702A;
+    margin: 13px 0 0 23px;
+    font-weight: 700;
+}
+.price-box span{
+    font-size: 12px;
+}
+.price-box img{
+   width: 10px;
+   height: 10px;
+   margin-left: 0;
+}
+.price-box p{
+    font-size: 11px;
+}
+.special-bottom button{
+    margin: 22px 12px 0 0;
+    width: 115px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 600;
+    background: #F65E26;
+    color: white;
+    border: none;
+}
+.timer{
+    margin-right: 8px;
+}
+.special-bottom p{
+    margin-top: -16px;
+    margin-left: 23px;
+    margin-bottom: 5px;
+    font-weight: 550;
+}
+.special-bottom .counter{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    background: #ECC2B1;
+    position: relative;
+    border-radius: 10px;
+  
+}
+.counter{
+    transform: rotate(-50deg);
+}
+.counter p{
+    position: absolute;
+    padding-top: 15px;
+    transform: rotate(50deg);
+
+}
+/*....Processes Section......*/
+
+.processes{
+    position: relative;
+    padding: 100px 0 100px 0;
+    
+}
+.process-container{
+    display: flex;
+    margin-left: 22%;
+    padding: 50px 650px 50px 150px;
+    margin-right: 330px;
+    background: #FB6928;
+    border-radius: 20px;
+}
+.coffee{
+    margin-right: 110px;
+    margin-left: -30px;
+}
+.place{
+    margin-right: 110px;
+}
+.coffee img{
+   position: absolute;
+   top: 150px;
+   left: 370px;
+   width: 60px;
+}
+.place img{
+    position: absolute;
+    top: 150px;
+    left: 640px;
+    width: 60px;
+}
+.receive img{
+    position: absolute;
+    top: 150px;
+    left: 920px;
+    width: 60px;
+}
+.process-container p{
+    color: white;
+    width: 160px;
+    font-size: 13px;
+}
+.process-container h3{
+    margin-bottom: 15px;
+    color: white;
+}
+
+/*.....Today's OFFER section.......*/
+
+.offer{
+    margin-top: 120px;
+    background: url('images/todayoffer.png');
+    height: 650px;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+.offer-container{
+    position: absolute;
+    top: 45px;
+    right: 420px;
+}
+.offer-container h1{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 310px;
+}
+.first-offer-text, .last-offer-text{
+    border-right: 1px solid #FB6928;
+    border-left: 1px solid #FB6928;
+}
+.offer-img{
+    position: absolute;
+    top: 45px;
+    right: 35px;
+    width: 290px;
+}
+.offer-img-ii{
+    position: absolute;
+    top: 370px;
+    right: 35px;
+    width: 290px;
+}
+
+.about-us{
+    margin-top: 130px;
+    padding-bottom: 630px;
+}
+.about-coffee{
+    background: url('images/Rectangle\ 7.png');
+    background-size: cover;
+    background-position: left;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.about-coffee h1{
+    margin-left: 200px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 35px;
+    padding-right: 50px;
+    border-right: 1px solid white;
+}
+.about-coffee p{
+    width: 600px;
+    line-height: 2.5;
+    color: white;
+    font-weight: bold;
+    margin-left: -200px;
+}
+
+/**........TESTIMONIALS........**/
+.about-us .heading{
+    font-size: 35px;
+    text-align: center;
+    color: #0A0626;
+}
+.about-us h1{
+    font-size: 35px;
+}
+
+.testimonials{
+    position: relative;
+    top: 60px;
+}
+.bg-testimonial{
+    position: absolute;
+    width: 700px;
+    left:420px;
+}
+.about-us .arrow-left{
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    width: 40px;
+}
+.about-us .arrow-right{
+    position: absolute;
+    top: 50px;
+    width: 40px;
+    right: 500px;
+}
+.about-us .testimonial-one{
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    left: 730px;
+    width: 100px;
+}
+.about-us .testimonial-two{
+    position: absolute;
+    right: 300px;
+    top: 45px;
+    width: 100px;
+}
+.about-us .testimonial-three{
+    top: 300px;
+    right: 300px;
+    position: absolute;
+    width: 100px;
+}
+.about-us .testimonial-four{
+    position: absolute;
+    width: 100px;
+    top: 45px;
+    left: 315px;
+}
+.about-us .testimonial-five{
+    position: absolute;
+    width: 100px;
+    top: 300px;
+    left: 315px;
+}
+.about-us .testimonial-text{
+    width: 600px;
+    line-height: 2.0;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 470px;
+}
+.testimonial-text h3{
+    padding-top: 40px;
+    font-size: 22px;
+    color:#0A0626;
+}
+.testimonial-text .narrow-text{
+    font-size: 14px;
+}
+/**........FOOTER........**/
+
+footer{
+    display: flex;
+    padding-top: 200px;
+    margin-left: 220px;
+    padding-bottom: 60px;
+}
+footer h3{
+    color:#0A0626;
+    font-size: 20px;
+}
+.logo-bottom{
+    width: 120px;
+    padding-bottom: 30px;
+}
+.social{
+    padding-right: 170px;
+}
+.social .social-first{
+    width: 230px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.8;
+}
+.social .social-second{
+    width: 225px;
+    font-size: 13px;
+    color: #FF702A;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.social .fb, .social .pinterest, .social .myspace, .social .twitter{
+    width: 40px;
+    margin-right: 5px;
+}
+.numbers{
+    padding-right: 170px;
+    margin-top: 5px;
+}
+
+.numbers .border{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.numbers .contact-box{
+    font-size:13px;
+    display: flex;
+    padding-bottom: 40px;
+}
+.contact-box .contact-icon-first, .contact-box-second 
+.contact-icon-second, .contact-box-third .contact-icon-third{
+    margin-right: 30px;
+}
+.contact-box p, .contact-box-second p{
+    padding-top: 10px;
+}
+.numbers .contact-box-second{
+    font-size:13px;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+.numbers .contact-box-third{
+    width: 250px;
+    font-size:13px;
+    display: flex;
+    padding-bottom: 40px;
+}
+.opening-hours{
+    position: relative;
+    font-size: 13px;
+    line-height: 2.5;
+}
+.openinghrs-bg{
+    position: absolute;
+    top: 10px;
+    right: -40px;
+    width: 340px;
+    z-index: -10;
+}
+.opening-hours h3{
+    padding-top: 30px;
+    position: absolute;
+    left: -10px;
+}
+.opening-container{
+    padding-top: 90px;
+
+}
+.opening-container .padding-span{
+    padding-right: 20px;
+}
+.opening-container .padding-spans{
+    padding-right: 43px;
+}
+.opening-container .padding-spant{
+    padding-right: 40px;
+}
+.opening-container .padding-spansf{
+    padding-right: 57px;
+}
+.opening-container .days-colored{
+    color: #FF702A;
+    font-weight: bold;
+}
+/**........FOOTER........**/
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 220px;
+    margin-right: 150px;
+    font-size: 13px;
+    background-color:#FEEEE7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copyright .cop-text{
+    padding-left: 80px;
+}
+.copyright .terms{
+    display: flex;
+    padding-right: 80px;
+}
+.copyright .cop-text-two{
+    border-right: 2px solid black;
+    margin-right: 10px;
+    padding-right: 10px;
+}
