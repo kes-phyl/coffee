@@ -1,7 +1,7 @@
 # coffee
 
 
-![](./screenshotprev.png)
+![](./Screenshotprev.png)
 
 
 Coffee Swift is an online web application that allows it users to order coffee of their choice online and it gets delivered to their desired addresses. The aim of this project,
